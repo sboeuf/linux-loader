@@ -13,4 +13,5 @@ bzImage = []
 
 [dependencies.vm-memory]
 git = "https://github.com/rust-vmm/vm-memory"
+rev = "281b8bd6cd2927f7a65130194b203a1c2b0ad2e3"
 features = ["backend-mmap"]
