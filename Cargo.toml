@@ -11,5 +11,6 @@ elf = []
 bzimage = []
 
 [dependencies.vm-memory]
-git = "https://github.com/rust-vmm/vm-memory"
+git = "https://github.com/alexandruag/vm-memory"
+branch = "file_backed_regions"
 features = ["backend-mmap"]
